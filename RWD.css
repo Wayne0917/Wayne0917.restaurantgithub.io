@@ -1,0 +1,216 @@
+@media screen and (max-width:1070px){
+    .navbar h1 a{
+        background-image: url(/圖片素材/logo_w.png);
+        background-repeat: no-repeat;
+    }
+    
+    .navbar_ul{
+        display: none;
+    }
+
+    .banner{
+        background-image: url(/圖片素材/Bitmap@2x.png);
+        background-position: 0%;
+    }
+    
+    .section_ul li{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .section_ul li p{
+        width: 50%;
+        line-height: 130%;
+    }
+    
+    .banner_content{
+        width: 90%;
+    }
+    
+    .hamburger_menu{
+        display: block;
+    }
+    
+    .article_aside_title{
+        width: 70%;
+        text-align: center;
+        margin: 7% auto;
+    }
+
+    .article_cart_main_box{
+        width: 100%;
+    }
+
+    .article_cart_main_bottom_box_ul li{
+        width: 45%;
+        margin-bottom: 40px
+    }
+
+    .article_cart_main_bottom_box_ul li:hover{
+        width: 49%;
+    }
+
+    .article_cart_main_goPay{
+        width: 20%;
+    }
+
+    .article_cart_main_top_box{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .article_cart_main_find{
+        width: 100%;
+        justify-content: center;
+        margin: 20px;
+    }
+
+    .article_cart_main_goPay{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .main_box_login_terms>p{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .main_box_login_register{
+        width: 100%;
+    }
+
+    .button_register{
+        justify-content: center;
+        margin-top: 20px;
+    }
+}
+
+/* 930px ------------------------------------------*/
+@media screen and (max-width:930px){
+    .banner{
+        height: 740px;
+    }
+
+    .navbar_ul{
+        display: none;
+    }
+
+    .article_cart_main_bottom_box_ul li{
+        width: 90%;
+    }
+
+    .article_cart_main_bottom_box_ul li:hover{
+        width: 95%;
+    }
+
+    .main_box_login_button>button{
+        margin-bottom: 20px;
+    }
+
+    .main_box_login{
+        width: 70%;
+    }
+}
+
+
+/* 768px ------------------------------------------*/
+@media screen and (max-width:768px){
+    .navbar{
+        justify-content: center;
+    }
+
+    .navbar h1{
+        width: 90%;
+        background-image: url(/圖片素材/logo_w.png);
+        background-position: center;
+    }
+
+
+    .line{
+        display: none;
+    }
+    
+    .banner{
+        height: 600px;
+        background-image: url(/圖片素材/header_mobile.png);
+        background-size: cover;
+    }
+
+    .footer_box>div{
+        width: 100%;
+    }
+
+    .section_chef img{
+        width: 100%;
+    }
+
+    .section_chef_content{
+        width: 100%;
+        align-items: center;
+    }
+
+    .section_chef_content h3{
+        width: 100%;
+        margin-top: 7%;
+        text-align: center;    
+}
+
+    .section_chef_content_text{
+        width: 80%;
+
+    }
+
+    .section_listen{
+        max-width: 80%;
+    }
+    
+    .section_listen_content{
+        width: 100%;
+    }
+
+    .section_location_box img{
+        width: 100%;
+    }
+
+    .section_location_buttonBox{
+        justify-content: center;
+    }
+
+
+}
+
+
+/* 520px ------------------------------------------*/
+@media screen and (max-width:520px){
+    p{
+        font-size: 1rem;
+    }
+
+    .banner{
+        height: 420px;
+    }
+
+    .banner_content h2{
+        font-size: 26px;
+    }
+
+    .section_chef_content{
+        width: 100%;
+    }
+
+    .section_location_inputBox{
+        width: 70%;
+    }
+
+    .section_location_buttonBox>button{
+        margin: 0 10px;
+    }
+
+    .main_box_login{
+        width: 80%;
+    }
+
+    .main_box_login_terms{
+        width: 100%;
+    }
+}

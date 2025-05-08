@@ -1,0 +1,197 @@
+h4{
+    font-size: 20px;
+    color: #3D1101;
+}
+
+a,p{
+    color: #3D1101;
+}
+
+.article_cart{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+/* article---------------------------------------*/
+
+/* 側邊層 ---------------------------------------*/
+.article_aside_title{
+    width: 20%;
+}
+
+.product{
+    width: 100%;
+}
+
+.article_aside_title>h4>img{
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}
+
+.article_aside_ul{
+    width: 100%;
+}
+
+.article_aside_ul>li{
+    padding: 10px;
+    border-bottom: 1px solid #3D1101;
+}
+
+.article_aside_ul>li:hover{
+    background-color: #3D1101;
+}
+
+.article_aside_ul>li>a{
+    display: block;
+}
+
+.article_aside_ul>li>a:hover{
+    color: white;
+}
+
+/* 搜尋 及 結帳去 層 ----------------------------------*/
+.article_cart_main_box{
+    width: 70%;
+}
+
+
+/* 搜尋 */
+.article_cart_main_top_box{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.article_cart_main_find{
+    width: 80%;
+    display: flex;
+}
+
+.article_cart_main_find input{
+    width: 60%;
+    border: 2px solid #3D1101;
+    transition: all 1.2s;
+}
+
+.article_cart_main_find input:focus{
+    padding: 15px;
+}
+
+.article_cart_main_find>button>img{
+    width: 36px;
+    height: 36px;
+}
+
+
+
+/* 結帳去 */
+.article_cart_main_goPay{
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.article_cart_main_goPay>p{
+    padding-right: 10px;
+    border-right: 1px solid #3D1101;
+}
+
+.article_cart_main_goPay>button>img{
+    width: 24px;
+    height: 24px;
+}
+
+
+/* 加入購物車清單 層 */
+.article_cart_main_bottom_box{
+    width: 100%;
+    margin-top: 5%;
+}
+
+.underLine{
+    width: 35%;
+    border-bottom: 1px solid #3D1101;
+}
+
+.shopping_button{
+    width: 90%;
+    border: 2px solid rgba(255,94,69,1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.shopping_button:hover{
+    color: white;
+    background-color: rgba(255,94,69,1);
+}
+
+.shopping_button:active{
+    background-color: rgba(0, 0, 0, 0.096);
+}
+
+.dollar{
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.article_cart_main_bottom_box_ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article_cart_main_bottom_box_ul li{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: #EFE9E7;
+    box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.16);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    transition: all 1.2s;
+}
+
+.article_cart_main_bottom_box_ul li:hover{
+    width: 32%;
+    transform: translateY(-15px)
+}
+
+.article_cart_main_bottom_box_ul h4{
+    margin-top: 20px;
+}
+
+.heart{
+    width: 23px;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+.hot_sale{
+    position: absolute;
+    top: 16px;
+    right: -5px;
+    transform: rotate(-315deg);
+    font-family: NotoSansCJKtc-Bold;
+    font-size: 14px;
+    color: #FFFFFF;
+    background-color: rgb(0, 255, 187);
+    padding: 3px;
+}
+
+.article_cart_main_bottom_box_ul p{
+    padding: 10px;
+}
+
