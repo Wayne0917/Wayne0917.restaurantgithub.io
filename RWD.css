@@ -1,6 +1,6 @@
 @media screen and (max-width:1070px){
     .navbar h1 a{
-        background-image: url(/圖片素材/logo_w.png);
+        background-image: url(圖片素材/logo_w.png);
         background-repeat: no-repeat;
     }
     
@@ -9,7 +9,7 @@
     }
 
     .banner{
-        background-image: url(/圖片素材/Bitmap@2x.png);
+        background-image: url(圖片素材/Bitmap@2x.png);
         background-position: 0%;
     }
     
@@ -121,7 +121,7 @@
 
     .navbar h1{
         width: 90%;
-        background-image: url(/圖片素材/logo_w.png);
+        background-image: url(圖片素材/logo_w.png);
         background-position: center;
     }
 
@@ -132,7 +132,7 @@
     
     .banner{
         height: 600px;
-        background-image: url(/圖片素材/header_mobile.png);
+        background-image: url(圖片素材/header_mobile.png);
         background-size: cover;
     }
 
