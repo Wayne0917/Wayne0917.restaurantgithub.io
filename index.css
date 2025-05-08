@@ -429,6 +429,14 @@ section{
     background-color:rgba(245,108,35,1);
 }
 
+.section_location_buttonBox>button:hover{
+    background-color: rgba(0,0,0,0.16);
+}
+
+.section_location_buttonBox>button:active{
+    background-color: rgba(0, 0, 0, 0.096);
+}
+
 /* footer ---------------------------------------*/
 .footer_box{
     max-width: 100%;

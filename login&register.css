@@ -108,3 +108,7 @@ button:active{
 .button_register{
     justify-content: end;
 }
+
+.goBack>a{
+    color: black;
+}
