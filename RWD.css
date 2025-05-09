@@ -186,6 +186,11 @@
         font-size: 1rem;
     }
 
+    .section_ul{
+        margin: 0 auto;
+        width: 90%;
+    }
+
     .banner{
         height: 420px;
     }
